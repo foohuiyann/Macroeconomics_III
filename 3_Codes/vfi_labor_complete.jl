@@ -72,7 +72,10 @@ else
 end
     return pdfY, y
 end
-Π, z = Tauchen(ρ,σ,Z,μ)
+
+m=3 #set scaling parameter
+
+Π, z = Tauchen(ρ,σ,Z,μ,m)
 z = exp.(z)
 ########################
 
